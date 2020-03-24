@@ -1,0 +1,140 @@
+﻿/*arrow slider*/
+/* USE THIS CODE */
+.arrow{
+    position: absolute;
+    top: 10%;
+    right: 150px;
+    transform: translate(-50%,-50%);
+}
+.arrow span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+}
+.arrow span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotate(45deg) translate(-20px,-20px);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: rotate(45deg) translate(20px,20px);
+    }
+}
+
+
+
+
+
+
+
+/*Ads slider*/
+/* Base styling*/
+
+/* Popover styling */
+
+a {
+  text-decoration: none;
+}
+
+.popover__title {
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: rgb(228, 68, 68);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.popover__wrapper {
+  /*position: relative;*/
+  position: absolute;
+    top: 10%;
+    right: 5%;
+
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+.popover__content {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  right: -100px;
+  transform: translate(0, 10px);
+  background-color: #82ae46;
+  padding: 1.5rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  width: auto;
+}
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  right: calc(50% - 10px);
+  top: -8px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #82ae46 transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+.popover__wrapper:hover .popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+.popover__message {
+  text-align: center;
+  color:white;
+}
+
+
+
+
+
+ul#countdown {
+	/*position: relative;*/
+	/*top: 50%;*/
+	/*transform: translateY(-50%);*/
+	width: 50%;
+	margin: 0 auto;
+	padding: 15px 0 20px 0;
+	color: #000000;
+	border: 1px solid #adafb2;
+	border-width: 1px 0;
+	overflow: hidden;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	font-weight: bold;
+}
+  
+  .count li {
+    margin: 0 -3px 0 0;
+    padding: 0;
+    display: inline-block;
+    width: 25%;
+    font-size: 50px;
+    font-size: 4vw;
+    text-align: center;
+    }
+    .count .label {
+      color: #adafb2;
+      font-size: 18px;
+      font-size: 1.5vw;
+      text-transform: uppercase;
+    }

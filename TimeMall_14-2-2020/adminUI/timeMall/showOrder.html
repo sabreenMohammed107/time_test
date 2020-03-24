@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Time Mall</title>
+  <!-- Iconic Fonts -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="vendors/iconic-fonts/font-awesome/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendors/iconic-fonts/flat-icons/flaticon.css">
+  <link rel="stylesheet" href="vendors/iconic-fonts/cryptocoins/cryptocoins.css">
+  <link rel="stylesheet" href="vendors/iconic-fonts/cryptocoins/cryptocoins-colors.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!-- Date picker -->
+   <link rel="stylesheet" href="css/datepicker.css">
+  <!-- jQuery UI -->
+  <link href="css/jquery-ui.min.css" rel="stylesheet">
+  <!-- Page Specific CSS (Slick Slider.css) -->
+  <link href="css/datatables.min.css" rel="stylesheet">
+  <link href="css/slick.css" rel="stylesheet">
+    <link href="css/select2.min.css" rel="stylesheet">
+    <!--sweeter-->
+    <link rel="stylesheet" href="css/sweetalert2.min.css">
+    <!--rich text-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/richtext.min.css">
+  <!-- Mystic styles -->
+  <link href="css/style.css" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="img/85055897_2290538387910995_9008169895875051520_n.png">
+<!-- select search -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.3/css/bootstrap-select.css" />
+</head>
+<body class="ms-body   ms-primary-theme ms-has-quickbar">
+
+  <!-- Pre LOADER -->
+  <div id="LoaderWrapper">
+      <div class="spinner spinner-4">
+          <div class="cube1"></div>
+          <div class="cube2"></div>
+        </div>
+  </div>
+  <!-- /Pre LOADER -->
+
+
+  <!-- Overlays -->
+  <div class="ms-aside-overlay ms-overlay-left ms-toggler" data-target="#ms-side-nav" data-toggle="slideLeft"></div>
+  <div class="ms-aside-overlay ms-overlay-right ms-toggler" data-target="#ms-recent-activity" data-toggle="slideRight"></div>
+      <!-- Sidebar Navigation Left -->
+      <aside id="ms-side-nav" class="side-nav fixed ms-aside-scrollable ms-aside-left">
+
+        <!-- Logo -->
+        <div class="logo-sn ms-d-block-lg">
+          <a class="pl-0 ml-0 text-center" href="index.html"> <img src="img/85055897_2290538387910995_9008169895875051520_n.png" alt="logo"> </a>
+        </div>
+      
+        <!-- Navigation -->
+        <ul class="accordion ms-main-aside fs-14" id="side-nav-accordion">
+            <!-- Home -->
+            <li class="menu-item ">
+                <a class=" active" href="index.html">
+                    <span><i class="material-icons fs-16">home</i>Home </span>
+                </a>
+               
+            </li>
+            <!-- /Home -->
+             <!-- Shop  -->
+             <li class="menu-item">
+              <a href="#" class="has-chevron" data-toggle="collapse" data-target="#create" aria-expanded="false" aria-controls="tables">
+                <span><i class="material-icons fs-16">build</i>Shop</span>
+              </a>
+              <ul id="create" class="collapse" aria-labelledby="tables" data-parent="#side-nav-accordion">
+                <li> <a href="home-slider.html">Shop data</a> </li>
+                <li> <a href="Products.html">Shop Products</a> </li>
+                <li> <a href="orders.html">Shop Orders</a> </li>
+              <!--  <li> <a href="courses.html">Courses</a> </li>
+                <li> <a href="rounds.html">Rounds</a> </li>
+                <li> <a href="bts_numbers.html">BTS_numbers</a> </li>
+                <li> <a href="clients.html">Clients</a> </li>
+                <li> <a href="parteners.html">Parteners</a> </li>
+                <li> <a href="branches.html">Branches </a> </li> -->
+              </ul>
+          </li>
+          <!--  Setup  -->
+            
+          <!-- Sending  -->
+          <!-- <li class="menu-item">
+              <a href="#" class="has-chevron" data-toggle="collapse" data-target="#basic-elements" aria-expanded="false" aria-controls="basic-elements">
+              <span><i class="material-icons fs-16">backup</i>Sending</span>
+            </a>
+              <ul id="basic-elements" class="collapse" aria-labelledby="basic-elements" data-parent="#side-nav-accordion">
+                <li> <a href="send_mail.html">Sending mail</a> </li>
+                <li> <a href="send_sms.html">sending sms</a> </li>
+              </ul>
+            </li> -->
+          <!--  Sending  -->
+          <!-- Clients  -->
+          <!-- <li class="menu-item">
+              <a href="#" class="has-chevron" data-toggle="collapse" data-target="#contactsdropdown" aria-expanded="false" aria-controls="contactsdropdown">
+              <span><i class="material-icons fs-16">assignment</i>Clients</span>
+            </a>
+              <ul id="contactsdropdown" class="collapse" aria-labelledby="basic-elements" data-parent="#side-nav-accordion">
+                <li> <a href="contacts.html">Clients</a> </li>
+               
+              </ul>
+            </li> -->
+          <!--  Clients  -->
+          <!-- Leads  -->
+          <!-- <li class="menu-item">
+              <a href="#" class="has-chevron" data-toggle="collapse" data-target="#callsdropdown" aria-expanded="false" aria-controls="callsdropdown">
+              <span><i class="material-icons fs-16">call</i>Leads</span>
+            </a>
+              <ul id="callsdropdown" class="collapse" aria-labelledby="basic-elements" data-parent="#side-nav-accordion">
+                <li> <a href="calls.html">Leads</a> </li>
+               
+              </ul>
+            </li> -->
+          <!--  Leads  -->
+          <!-- Users  -->
+          <!-- <li class="menu-item">
+              <a href="#" class="has-chevron" data-toggle="collapse" data-target="#Usersdropdown" aria-expanded="false" aria-controls="Usersdropdown">
+              <span><i class="material-icons fs-16">assignment_ind</i>Users</span>
+            </a>
+              <ul id="Usersdropdown" class="collapse" aria-labelledby="basic-elements" data-parent="#side-nav-accordion">
+                <li> <a href="users.html">Users</a> </li>
+               
+              </ul>
+            </li> -->
+          <!--  Users  -->
+          <!-- <li class="menu-item ">
+            <a class="" href="companies.html">
+                <span><i class="material-icons fs-16">assignment</i>Companies </span>
+            </a>
+           
+        </li> -->
+           
+          
+          
+        </ul>
+      
+      
+      </aside>
+ <!-- Main Content -->
+ <main class="body-content">
+      <nav class="navbar ms-navbar">
+
+        <div class="ms-aside-toggler ms-toggler pl-0" data-target="#ms-side-nav" data-toggle="slideLeft">
+          <span class="ms-toggler-bar bg-primary"></span>
+          <span class="ms-toggler-bar bg-primary"></span>
+          <span class="ms-toggler-bar bg-primary"></span>
+        </div>
+  
+        <div class="logo-sn logo-sm ms-d-block-sm">
+          <a class="pl-0 ml-0 text-center navbar-brand mr-0" href="index.html"><img src="img/85055897_2290538387910995_9008169895875051520_n.png" alt="logo"> </a>
+        </div>
+  
+        <ul class="ms-nav-list ms-inline mb-0" id="ms-nav-options">
+          <!-- <li class="ms-nav-item  quick-call  mt-2">
+            <a href="bulk-search.html" class="">
+              <span class="text-dark"><i class="material-icons fs-16">search</i><b>MSearch</b></span>
+            </a>
+          </li> -->
+          <!-- <li class="ms-nav-item  quick-call  mt-2">
+            <a href="Qkcall.html" class="">
+              <span class="text-dark"><i class="material-icons fs-16">call</i><b>QkCall</b></span>
+            </a>
+          </li> -->
+          <li class="ms-nav-item dropdown ms-search-form">
+            <!-- <form class="ms-form" method="post">
+              <div class="ms-form-group my-0 mb-0 has-icon fs-14">
+                <input type="search" class="ms-form-input" id="quickCallSearch" name="search" placeholder="Search here..." value="">
+                <!-- <button type="submit" class="search-btn"><i class="flaticon-search text-disabled"></i></button> -->
+             <!-- </div>
+            </form> -->
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="mailDropdown" id="quickCall_List"> 
+             
+              <li class="ms-scrollable ms-dropdown-list ps">
+                <a class="media p-2" href="profile.html">
+                  <div class=" ms-chat-img mr-2 align-self-center">
+                    <img src="https://via.placeholder.com/270x270" class="ms-img-round" alt="people">
+                  </div>
+                  <div class="media-body">
+                    <span>xxxxx .</span>
+                  </div>
+                </a>
+                <a class="media p-2" href="profile.html">
+                  <div class=" ms-chat-img mr-2 align-self-center">
+                    <img src="https://via.placeholder.com/270x270" class="ms-img-round" alt="people">
+                  </div>
+                  <div class="media-body">
+                    <span>xxxxx .</span>
+                  </div>
+                </a>
+                <a class="media p-2" href="profile.html">
+                  <div class=" ms-chat-img mr-2 align-self-center">
+                    <img src="https://via.placeholder.com/270x270" class="ms-img-round" alt="people">
+                  </div>
+                  <div class="media-body">
+                    <span>xxxxx .</span>
+                  </div>
+                </a>
+                <a class="media p-2" href="profile.html">
+                  <div class=" ms-chat-img mr-2 align-self-center">
+                    <img src="https://via.placeholder.com/270x270" class="ms-img-round" alt="people">
+                  </div>
+                  <div class="media-body">
+                    <span>xxxxx .</span>
+                  </div>
+                </a>
+                <a class="media p-2" href="profile.html">
+                  <div class=" ms-chat-img mr-2 align-self-center">
+                    <img src="https://via.placeholder.com/270x270" class="ms-img-round" alt="people">
+                  </div>
+                  <div class="media-body">
+                    <span>xxxxx .</span>
+                  </div>
+                </a>
+           
+              
+               
+              <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></li>
+            </ul>
+          </li>
+          <li class="ms-nav-item  mt-2">
+            <div class="switch">
+              <div class="quality">
+                <input checked="" id="q1" name="q" type="radio" value="q1">
+                <label for="q1">EN</label>
+              </div>
+              <div class="quality">
+                <input id="q2" name="q" type="radio" value="q2">
+                <label for="q2">AR</label>
+              </div>
+            </div>
+          </li>
+         
+          <li class="ms-nav-item dropdown mt-2">
+            <!-- <a href="#" class="text-disabled ms-has-notification" id="mailDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>10</span>
+              <i class="flaticon-speech-bubble"></i></a> -->
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="mailDropdown">
+              <li class="dropdown-menu-header">
+                <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled">Messages</span></h6><span class="badge badge-pill badge-success">3 New</span>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li class="ms-scrollable ms-dropdown-list ps">
+                <a class="media p-2" href="chat.html">
+                  <div class="ms-chat-status ms-status-offline ms-chat-img mr-2 align-self-center">
+                    <img src="https://via.placeholder.com/270x270" class="ms-img-round" alt="people">
+                  </div>
+                  <div class="media-body">
+                    <span>Hey man, looking forward to your new project.</span>
+                    <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 30 seconds ago</p>
+                  </div>
+                </a>
+                <a class="media p-2" href="chat.html">
+                  <div class="ms-chat-status ms-status-online ms-chat-img mr-2 align-self-center">
+                    <img src="https://via.placeholder.com/270x270" class="ms-img-round" alt="people">
+                  </div>
+                  <div class="media-body">
+                    <span>Dear John, I was told you bought Mystic! Send me your feedback</span>
+                    <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 28 minutes ago</p>
+                  </div>
+                </a>
+                <a class="media p-2" href="chat.html">
+                  <div class="ms-chat-status ms-status-offline ms-chat-img mr-2 align-self-center">
+                    <img src="https://via.placeholder.com/270x270" class="ms-img-round" alt="people">
+                  </div>
+                  <div class="media-body">
+                    <span>How many people are we inviting to the dashboard?</span>
+                    <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 6 hours ago</p>
+                  </div>
+                </a>
+              <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></li>
+              <li class="dropdown-menu-footer text-center">
+                <a href="chat.html">View all messages</a>
+              </li>
+            </ul>
+          </li>
+  
+          <li class="ms-nav-item dropdown mt-2">
+            <!-- <a href="#" class="text-disabled ms-has-notification" id="notificationDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>36</span>
+              <i class="flaticon-bell"></i></a> -->
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="notificationDropdown">
+              <li class="dropdown-menu-header">
+                <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled">Notifications</span></h6><span class="badge badge-pill badge-info">4 New</span>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li class="ms-scrollable ms-dropdown-list ps">
+                <a class="media p-2" href="#">
+                  <div class="media-body">
+                    <span>12 ways to improve your crypto dashboard</span>
+                    <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 30 seconds ago</p>
+                  </div>
+                </a>
+                <a class="media p-2" href="#">
+                  <div class="media-body">
+                    <span>You have newly registered users</span>
+                    <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 45 minutes ago</p>
+                  </div>
+                </a>
+                <a class="media p-2" href="#">
+                  <div class="media-body">
+                    <span>Your account was logged in from an unauthorized IP</span>
+                    <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 2 hours ago</p>
+                  </div>
+                </a>
+                <a class="media p-2" href="#">
+                  <div class="media-body">
+                    <span>An application form has been submitted</span>
+                    <p class="fs-10 my-1 text-disabled"><i class="material-icons">access_time</i> 1 day ago</p>
+                  </div>
+                </a>
+              <div class="ps__rail-x" style="left: 0px; bottom: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; right: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></li>
+              <li class="dropdown-divider"></li>
+              <li class="dropdown-menu-footer text-center">
+                <a href="notifications.html">View all Notifications</a>
+              </li>
+            </ul>
+          </li>
+  
+          <li class="ms-nav-item ms-nav-user dropdown">
+            <a href="#" id="userDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img class="ms-user-img ms-img-round float-left" src="https://via.placeholder.com/270x270" alt="people">
+              <span class="float-right">User</span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-right user-dropdown" aria-labelledby="userDropdown">
+              <li class="dropdown-menu-header">
+                <h6 class="dropdown-header ms-inline m-0"><span class="text-disabled">Welcome, User</span></h6>
+              </li>
+              <li class="dropdown-divider"></li>
+              <li class="ms-dropdown-list">
+                <a class="media fs-14 p-2" href="profile.html"> <span><i class="flaticon-user mr-2"></i> Profile</span>
+                </a>
+              </li>
+              <li class="dropdown-divider"></li>
+  
+              <li class="dropdown-menu-footer">
+                <a class="media fs-14 p-2" href="login.html"> <span><i class="flaticon-shut-down mr-2"></i> Logout</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+  
+        <div class="ms-toggler ms-d-block-sm pr-0 ms-nav-toggler" data-toggle="slideDown" data-target="#ms-nav-options">
+          <span class="ms-toggler-bar bg-primary"></span>
+          <span class="ms-toggler-bar bg-primary"></span>
+          <span class="ms-toggler-bar bg-primary"></span>
+        </div>
+  
+      </nav>
+        <!-- Body Content Wrapper -->
+    <div class="ms-content-wrapper">
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html"><i class="material-icons"></i> Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Show Order</li>
+          </ol>
+        </nav>
+        <div class="row">
+
+            <div class="col-md-12">
+    
+    
+    
+              <div class="ms-panel">
+                <div class="ms-panel-header d-flex justify-content-between">
+                  <h6>Order</h6>
+                  <!-- <a href="add_cource.html" class="btn btn-dark" > add Course </a> -->
+                </div>
+                <div class="ms-panel-body">
+                  <div class="ms-auth-container row no-gutters">
+                      <div class="col-12 p-3">
+                        <form action="">
+                            <div class="ms-auth-container row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                      <label class="exampleInputPassword1" for="exampleCheck1">Order Number</label>
+                                      <input type="number" class="form-control" value="90" readonly>
+                                    </div>
+                                  </div>
+                                          <div class="col-md-4">
+                                            <div class="form-group">
+                                              <label class="exampleInputPassword1" for="exampleCheck1">Created Date</label>
+                                              <input type="text" class="form-control" value="30-12-2020" readonly>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                            <div class="form-group">
+                                                <div class="form-group">
+                                                    <label>Order Status</label>
+                                                    <div class="input-group">
+                                                      <select name="" class="form-control" id="">
+                                                        <option value="">select...</option>
+                                                        <option value="Status-1">Not Started</option>
+                                                        <option value="Status-1">On Way</option>
+                                                       
+                                                        <option value="Status-3"> Deliverd</option>
+                                                        <option value="Status-2"> Cancel By Client</option>
+                                                        <option value="Status-2"> Cancel By Shop</option>
+                                                      </select>
+                                                    </div>
+                                                  </div>
+                                               
+                                              </div>
+                                          </div>
+                                          
+                                          <div class="col-md-6">
+                                            <div class="form-group">
+                                              <label class="exampleInputPassword1" for="exampleCheck1">Client Name</label>
+                                              <input type="text" class="form-control" value="Adel Mohammed Ibrahim" readonly>
+                                            </div>
+                                          </div>
+                                          <div class="col-md-6"></div>
+                                      <div class="col-md-4">
+                                        <div class="form-group">
+                                          <label class="exampleInputPassword1" for="exampleCheck1">Order Value</label>
+                                          <input type="number" value="5000"  class="form-control" readonly>
+                                        </div>
+                                      </div>
+                                   
+                                      <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="exampleInputPassword1" for="exampleCheck1">Shipping Value</label>
+                                            <input type="number"  class="form-control" value="1" readonly>
+                                        </div>
+                                      </div>
+                                     
+                                     
+                                     
+                                      <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label class="exampleInputPassword1" >Vat Value </label>
+                                          <input type="number" value="200" readonly class="form-control" >
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="exampleInputPassword1" >Net Value</label>
+                                          <input type="number"  value="100" readonly class="form-control" style="border:1px solid green" >
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6"></div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label class="exampleInputPassword1" >Delivary Date</label>
+                                          <input type="text" value="20-2-2020"  readonly class="form-control" >
+                                        </div>
+                                      </div>
+
+                                      <div class="col-md-6"></div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <label >Client Notes</label>
+                                          <div class="form-group">
+                                              <textarea readonly class="form-control" >
+                                                  this is client notes
+                                              </textarea>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-12">
+                                        <div class="form-group">
+                                          <label for="example">Shop Notes</label>
+                                          <div class="form-group">
+                                              <textarea class="content" name="example"></textarea>
+                                          </div>
+                                        </div>
+                                      </div>
+                  
+                                      
+                                     
+                                                 
+                              
+                                </form>
+                            </div>
+                            <div class="input-group d-flex justify-content-end text-center">
+                              <input type="button" value="Cancel" class="btn btn-dark mx-2" data-dismiss="modal" aria-label="Close">
+                              <input type="submit" value="Add" class="btn btn-success ">
+                            </div>
+                            </form>
+                          </div>
+                      </div>
+              
+              
+              
+              
+                    </div>
+              
+                  </div>
+               
+  <!-- add category -->
+  
+
+            <div class="tabbable-panel">
+				<div class="tabbable-line">
+					<ul class="nav nav-tabs " role="tablist">
+   
+						<li  class="btn btn-light test">
+							<a href="#tab_default_1" class="active" data-toggle="tab" role="tab">
+                              Order Items </a>
+						</li>
+						<li class="btn btn-light " >
+							<a href="#tab_default_2" data-toggle="tab" role="tab">
+                                Client Data </a>
+            </li>
+            <li class="btn btn-light " >
+							<a href="#tab_default_3" data-toggle="tab" role="tab">
+                                Shipping Data </a>
+            </li>
+            
+          
+					</ul>
+					<div class="tab-content test ">
+						<div class="tab-pane active" id="tab_default_1">
+                            <!-- Add Category -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <div class="ms-panel">
+                                    <div class="ms-panel-header d-flex justify-content-between">
+                         
+                        </div>
+                        <div class="ms-panel-body">
+                
+                          <div class="table-responsive">
+                            <table id="courseEval" class="dattable table table-striped thead-dark  w-100">
+                              <thead>
+                                <tr>
+                                  <th scope="col">#</th>
+                                  <th scope="col">Code</th>
+                                  <th scope="col">Product Name</th>
+                                  <th scope="col">Quantity</th>
+                                  <th scope="col">Product Cost</th>
+                                  <th scope="col">Total Line Cost </th>
+                                  <th scope="col">Notes</th>
+                                 
+                
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>1</td>
+                                  <td>12</td>
+                                  <td>T-shirt</td>
+                                  <td>50</td>
+                                  <td>5000</td>
+                                  <td>250000</td>
+                                  <td>this is for test</td>
+                
+                
+                                  
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--End Cat-->
+							</div>
+						<div class="tab-pane" id="tab_default_2">
+                            <!-- Add img -->
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <div class="ms-panel">
+                                    <div class="ms-panel-header d-flex justify-content-between">
+                        
+                        </div>
+                        <div class="ms-panel-body">
+                
+                        
+                            <form action="">
+    
+                                <div class="ms-auth-container row">
+                                    
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label>Client Name</label>
+                                      <div class="input-group">
+                                        <input type="text"  class="form-control" placeholder="Name" readonly>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label>Email</label>
+                                      <div class="input-group">
+                                        <input type="email"  value="Ahmed Yahia" class="form-control" placeholder="Email" readonly>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label>Country</label>
+                                      <div class="input-group">
+                                        <input type="text" value="Egypt" class="form-control" placeholder="Country" readonly>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label>City</label>
+                                      <div class="input-group">
+                                        <input type="text" value="Cairo" class="form-control" placeholder="City" readonly>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label>Mobile 1</label>
+                                      <div class="input-group">
+                                        <input type="text" value="0124077377" class="form-control" placeholder="Mobile" readonly>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6">
+                                    <div class="form-group">
+                                      <label>Mobile 2</label>
+                                      <div class="input-group">
+                                        <input type="text" value="01117615935"  class="form-control" placeholder="Mobile" readonly>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                 
+                                  
+                
+                
+                                </div>
+                              
+                              </form>
+                           
+                        
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+						</div>
+						
+
+  <div class="tab-pane" id="tab_default_3">
+        <!-- Add FEATURES  -->
+        <div class="row">
+            <div class="col-md-12">
+              <div class="ms-panel">
+                <div class="ms-panel-header d-flex justify-content-between">
+    
+    </div>
+    <div class="ms-panel-body">
+                
+                        
+        <form action="">
+
+            <div class="ms-auth-container row">
+                
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Client Name</label>
+                  <div class="input-group">
+                    <input type="text"  class="form-control" placeholder="Name" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Addrees</label>
+                  <div class="input-group">
+                    <input type="text"  value="naser city" class="form-control" placeholder="Address" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Country</label>
+                  <div class="input-group">
+                    <input type="text" value="Egypt" class="form-control" placeholder="Country" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>City</label>
+                  <div class="input-group">
+                    <input type="text" value="Cairo" class="form-control" placeholder="City" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Mobile 1</label>
+                  <div class="input-group">
+                    <input type="text" value="0124077377" class="form-control" placeholder="Mobile" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Mobile 2</label>
+                  <div class="input-group">
+                    <input type="text" value="01117615935"  class="form-control" placeholder="Mobile" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Phone</label>
+                  <div class="input-group">
+                    <input type="text" value="02-2248512"  class="form-control" placeholder="Phone" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Postal Code</label>
+                  <div class="input-group">
+                    <input type="text" value="02-2248512"  class="form-control" placeholder="Postal" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Address Marks </label>
+                  <div class="input-group">
+                    <input type="text" value="KFC"  class="form-control" placeholder="Marks" readonly>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <label>Map Location</label>
+                  <div class="input-group">
+                    <input type="text" value=""  class="form-control" placeholder="Map" readonly>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          
+          </form>
+       
+    
+    </div>
+  </div>
+</div>
+</div>
+<!--End FEATURES -->
+  </div>
+  
+
+       </div>
+   
+
+       
+					</div>
+				</div>
+			</div>
+
+
+
+            <hr>
+     
+</div>
+</div>
+
+
+  <!-- end add category -->
+
+</main>
+      
+    
+    <!-- SCRIPTS -->
+  <!-- Global Required Scripts Start -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/perfect-scrollbar.js"> </script>
+  <script src="js/jquery-ui.min.js"> </script>
+  <!-- Global Required Scripts End -->
+
+  <!-- Page Specific Scripts Start -->
+  <script src="js/slick.min.js"> </script>
+  <script src="js/moment.js"> </script>
+  <script src="js/jquery.webticker.min.js"></script>
+  <script src="js/Chart.bundle.min.js"> </script>
+  <script src="js/Chart.Financial.js"> </script>
+  <!-- <script src="js/cryptocurrency.js"> </script> -->
+  <!-- Page Specific Scripts Finish -->
+ <!-- Date picker -->
+ <script src="js/datepicker.min.js"></script>
+    <script src="js/select2.min.js"></script>
+
+  
+  <!-- Page Specific Scripts Start -->
+  <script src="js/datatables.min.js"> </script>
+  <script src="js/data-tables.js"> </script>
+  <!-- Page Specific Scripts End -->
+<!-- Circular Progress Bar -->
+<script src="vendors/jquery-circle-progress/dist/circle-progress.min.js"></script>
+  <!-- Mystic core JavaScript -->
+  <script src="js/framework.js"></script>
+<!--sweeter-->
+<script src="js/sweetalert2.min.js"></script>
+<!--rich text-->
+<script  src="js/jquery.richtext.js"></script>
+<!-- select search  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.3/js/bootstrap-select.js"></script>
+  <!-- Settings -->
+  <script src='js/main.js'></script>
+  <!-- <script src="js/settings.js"></script> -->
+</body>
+</html>

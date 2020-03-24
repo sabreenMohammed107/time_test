@@ -1,0 +1,1887 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Mall</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" type="image/x-icon" href="images/time-logo.png">
+
+
+	<!-- Google font -->
+	<link href="css/pro/css/css.css" rel="stylesheet" />
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/pro/css/bootstrap.min.css" />
+
+	<!-- Slick -->
+	<link type="text/css" rel="stylesheet" href="css/pro/css/slick.css" />
+	<link type="text/css" rel="stylesheet" href="css/pro/css/slick-theme.css" />
+
+
+	<!-- Font Awesome Icon -->
+	<link href="fonts/fontawesome-free-5.10.1-web/css/all.css" rel="stylesheet">
+	<link href="css/pro/css/font-awesome.min.css" rel="stylesheet" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/pro/css/style.css" />
+
+	<!--Category-->
+	<link href="css/catg/jquery-ui.css" rel="stylesheet" />
+	<!--<link href="css/catg/categories_styles.css" rel="stylesheet" />-->
+
+
+
+	
+
+</head>
+
+<body>
+
+	<!-- HEADER -->
+	<header>
+		<!-- top Header -->
+		<div id="top-header" style="background-color:#82ae46">
+			<div class="container">
+				<div class="pull-left">
+					<span style="color:white;text-transform:uppercase"><i class="fas fa-bullhorn"></i> Whatever you've got in mind .. we've got inside</span>
+				</div>
+				<div class="pull-right">
+					<ul class="header-top-links">
+						<li><a style="color:white !important"><i class="fab fa-app-store-ios"></i> App Store</a></li>
+						<li><a style="color:white !important"><i class="fab fa-google-play"></i> Google Play</a></li>
+						<li class="dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" style="color:white !important">ENG <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="#">English (ENG)</a></li>
+								<li><a href="#">Russian (Ru)</a></li>
+								<li><a href="#">French (FR)</a></li>
+								<li><a href="#">Spanish (Es)</a></li>
+							</ul>
+						</li>
+						<li class="dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true" style="color:white !important">USD <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="#">USD ($)</a></li>
+								<li><a href="#">EUR (€)</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /top Header -->
+		<!-- header -->
+		<div id="header">
+			<div class="container">
+				<div class="pull-left">
+					<!-- Logo -->
+					<div class="header-logo">
+						<a class="logo" href="#">
+							<img src="images/time-logo.jpeg" style="max-width:100px;max-height:50px" />
+						</a>
+					</div>
+					<!-- /Logo -->
+					<!-- Search -->
+					<div class="header-search">
+						<form class="form-control-lg">
+							<input class="input search-input" type="text" placeholder="Enter your keyword...">
+							<select class="input search-categories">
+								<option value="0">Product</option>
+								<option value="1">Supplier</option>
+								<option value="1">All</option>
+							</select>
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+						</form>
+					</div>
+					<!-- /Search -->
+				</div>
+				<div class="pull-right">
+					<ul class="header-btns">
+						<!-- Account -->
+						<li class="header-account dropdown default-dropdown">
+							<div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-user"></i>
+								</div>
+								<strong class="text-uppercase">My Account <i class="fa fa-caret-down"></i></strong>
+							</div>
+							<a href="#" class="text-uppercase">Login</a> / <a href="#" class="text-uppercase">Join</a>
+							<ul class="custom-menu">
+								<li><a href="#"><i class="fa fa-user-o"></i> My Account</a></li>
+								<li><a href="#"><i class="fa fa-heart-o"></i> My Wishlist</a></li>
+								<li><a href="#"><i class="fa fa-exchange"></i> Compare</a></li>
+								<li><a href="#"><i class="fa fa-check"></i> Checkout</a></li>
+								<li><a href="#"><i class="fa fa-unlock-alt"></i> Login</a></li>
+								<li><a href="#"><i class="fa fa-user-plus"></i> Create An Account</a></li>
+							</ul>
+						</li>
+						<!-- /Account -->
+						<!-- Cart -->
+						<li class="header-cart dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+								<div class="header-btns-icon">
+									<i class="fa fa-shopping-cart"></i>
+									<span class="qty">3</span>
+								</div>
+								<strong class="text-uppercase">My Cart</strong>
+								<br>
+								<span>35.20 EGP</span>
+							</a>
+							<div class="custom-menu">
+								<div id="shopping-cart">
+									<div class="shopping-cart-list">
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="images/thumb-product01.jpg" alt="" />
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">32.50 EGP<span class="qty">x3</span></h3>
+												<h2 class="product-name"><a href="#">Product Name</a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+										<div class="product product-widget">
+											<div class="product-thumb">
+												<img src="images/thumb-product02.jpg" alt="" />
+											</div>
+											<div class="product-body">
+												<h3 class="product-price">$32.50 <span class="qty">x3</span></h3>
+												<h2 class="product-name"><a href="#">Product Name</a></h2>
+											</div>
+											<button class="cancel-btn"><i class="fa fa-trash"></i></button>
+										</div>
+									</div>
+									<div class="shopping-cart-btns">
+										<button class="main-btn">View Cart</button>
+										<button class="primary-btn">Checkout <i class="fa fa-arrow-circle-right"></i></button>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- /Cart -->
+						<!-- Mobile nav toggle-->
+						<li class="nav-toggle">
+							<button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+						</li>
+						<!-- / Mobile nav toggle -->
+					</ul>
+				</div>
+			</div>
+			<!-- header -->
+		</div>
+		<!-- container -->
+	</header>
+	<!-- /HEADER -->
+	<!-- NAVIGATION -->
+	<div id="navigation" class="">
+		<!-- container -->
+		<div class="container">
+			<div id="responsive-nav">
+				<!-- category nav -->
+				<div class="category-nav show-on-click">
+					<span class="category-header">Categories <i class="fa fa-list"></i></span>
+					<ul class="category-list">
+						<li class="dropdown side-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Women’s Clothing <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row hidden-sm hidden-xs">
+									<div class="col-md-12">
+										<hr>
+										<a class="banner banner-1" href="#">
+											<img src="images/banner05.jpg" alt="" />
+											<div class="banner-caption text-center">
+												<h2 class="white-color">NEW COLLECTION</h2>
+												<h3 class="white-color font-weak">HOT DEAL</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Men’s Clothing</a></li>
+						<li class="dropdown side-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Phones & Accessories <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+									</div>
+									<div class="col-md-4 hidden-sm hidden-xs">
+										<a class="banner banner-2" href="#">
+											<img src="images/banner04.jpg" alt="" />
+											<div class="banner-caption">
+												<h3 class="white-color">NEW<br>COLLECTION</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Computer & Office</a></li>
+						<li><a href="#">Consumer Electronics</a></li>
+						<li class="dropdown side-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Jewelry & Watches <i class="fa fa-angle-right"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Bags & Shoes</a></li>
+						<li><a href="#">View All</a></li>
+					</ul>
+				</div>
+				<!-- /category nav -->
+				<!-- menu nav -->
+				<div class="menu-nav ">
+					<span class="menu-header">Menu <i class="fa fa-bars"></i></span>
+					<ul class="menu-list">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Shop</a></li>
+						<li class="dropdown mega-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Women <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+										<hr class="hidden-md hidden-lg">
+									</div>
+									<div class="col-md-4">
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="row hidden-sm hidden-xs">
+									<div class="col-md-12">
+										<hr>
+										<a class="banner banner-1" href="#">
+											<img src="images/banner05.jpg" alt="" />
+											<div class="banner-caption text-center">
+												<h2 class="white-color">NEW COLLECTION</h2>
+												<h3 class="white-color font-weak">HOT DEAL</h3>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="dropdown mega-dropdown full-width">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Men <i class="fa fa-caret-down"></i></a>
+							<div class="custom-menu">
+								<div class="row">
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="images/banner06.jpg" alt="" />
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Women’s</h3>
+												</div>
+											</a>
+											<hr>
+										</div>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="images/banner07.jpg" alt="" />
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Men’s</h3>
+												</div>
+											</a>
+										</div>
+										<hr>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="images/banner08.jpg" alt="" />
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Accessories</h3>
+												</div>
+											</a>
+										</div>
+										<hr>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+									</div>
+									<div class="col-md-3">
+										<div class="hidden-sm hidden-xs">
+											<a class="banner banner-1" href="#">
+												<img src="images/banner09.jpg" alt="" />
+												<div class="banner-caption text-center">
+													<h3 class="white-color text-uppercase">Bags</h3>
+												</div>
+											</a>
+										</div>
+										<hr>
+										<ul class="list-links">
+											<li>
+												<h3 class="list-links-title">Categories</h3>
+											</li>
+											<li><a href="#">Women’s Clothing</a></li>
+											<li><a href="#">Men’s Clothing</a></li>
+											<li><a href="#">Phones & Accessories</a></li>
+											<li><a href="#">Jewelry & Watches</a></li>
+											<li><a href="#">Bags & Shoes</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li><a href="#">Sales</a></li>
+						<li class="dropdown default-dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">Pages <i class="fa fa-caret-down"></i></a>
+							<ul class="custom-menu">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="products.html">Products</a></li>
+								<li><a href="product-page.html">Product Details</a></li>
+								<li><a href="checkout.html">Checkout</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<!-- menu nav -->
+			</div>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /NAVIGATION -->
+	<!-- HOME -->
+	<div id="home">
+		<!-- container -->
+		<div class="container"style="background-color:#30323A;">
+			<div class="row">
+				<div class="col-md-3"style="background-color:#82ae46;border:solid #82ae46 6px">
+					<div style="background-color:white;padding:30px;">
+						<img class="shop-logo" src="images/shop/shop-logo.jpg" style="max-width:100%;border-radius:1rem;margin-bottom:15px;" />
+						
+						<h4>Delight In The Details</h4>
+
+						<h4 class="footer-header"style="padding-top:15px">Style Lola</h4>
+						<ul class="list-links">
+							<li><a href="#">Our Products</a></li>
+							<li><a href="#">About Company</a></li>
+							<li><a href="#">Shiping Methods</a></li>
+							<li><a href="#">Payments Methods</a></li>
+							<li><a href="#">Contact US</a></li>
+						</ul>
+
+						<!-- footer social -->
+						<ul class="footer-social"style="padding-top:15px">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+					</div>
+					<!-- /footer social -->
+				</div>
+					<!-- home wrap -->
+					<div class="col-md-9">
+						<!-- home slick -->
+						<div id="home-slick">
+							<!-- banner -->
+							<div class="banner banner-1">
+								<img src="images/shop/slider-1.jpg" alt="">
+								<div class="banner-caption text-center">
+									<h1>Bags sale</h1>
+									<h3 class="white-color font-weak">Up to 50% Discount</h3>
+									<button class="primary-btn">Shop Now</button>
+								</div>
+							</div>
+							<!-- /banner -->
+							<!-- banner -->
+							<div class="banner banner-1">
+								<img src="images/shop/slider-2.jpg" alt="">
+								<div class="banner-caption">
+									<h1 class="primary-color">HOT DEAL<br><span class="white-color font-weak">Up to 50% OFF</span></h1>
+									<button class="primary-btn">Shop Now</button>
+								</div>
+							</div>
+							<!-- /banner -->
+							<!-- banner -->
+							<div class="banner banner-1">
+								<img src="images/shop/slider-3.jpg" alt="">
+								<div class="banner-caption">
+									<h1 class="white-color">New Product <span>Collection</span></h1>
+									<button class="primary-btn">Shop Now</button>
+								</div>
+							</div>
+							<!-- /banner -->
+							<!-- banner -->
+							<div class="banner banner-1">
+								<img src="images/shop/slider-4.jpg" alt="">
+								<div class="banner-caption">
+									<h1 class="white-color">New Product <span>Collection</span></h1>
+									<button class="primary-btn">Shop Now</button>
+								</div>
+							</div>
+							<!-- /banner -->
+						</div>
+						<!-- /home slick -->
+					</div>
+					<!-- /home wrap -->
+				</div>
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /HOME -->
+
+	<!-- section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- banner -->
+				<div class="col-md-3 col-sm-6">
+					<a class="banner banner-1" href="#">
+						<img class="pro-img" src="images/shop/coll-1.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">Casual Wear</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+				<!-- banner -->
+				<div class="col-md-3 col-sm-6">
+					<a class="banner banner-1" href="#">
+						<img class="pro-img" src="images/shop/coll-2.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">Watches</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+				<!-- banner -->
+				<div class="col-md-3 col-sm-6">
+					<a class="banner banner-1" href="#">
+						<img class="pro-img" src="images/shop/coll-3.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">Sunglasses</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+				<!-- banner -->
+				<div class="col-md-3 col-md-offset-0 col-sm-6 col-sm-offset-3">
+					<a class="banner banner-1" href="#">
+						<img class="pro-img" src="images/shop/coll-4.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">Shoes</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+	<!-- All Products section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- ASIDE -->
+				<div id="aside" class="col-md-3">
+
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">All Product</h3>
+
+						<ul class="list-links">
+							<li>
+								<h3 class="list-links-title">Categories</h3>
+							</li>
+							<li><a href="#">Women’s Clothing</a></li>
+							<li><a href="#">Women’s Shoes</a></li>
+							<li><a href="#">Phones & Accessories</a></li>
+							<li><a href="#">Jewelry & Watches</a></li>
+						</ul>
+
+					</div>
+					<!-- /aside widget -->
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">FILTER BY Price :</h3>
+						<div class="sidebar">
+							<!--Price Range Filtering-->
+							<div class="sidebar_section">
+								<p><input type="text" id="amount" readonly style="border:0; color:#82ae46; font-weight:bold;font-size:17px"></p>
+								<div id="slider-range"></div>
+							</div>
+						</div>
+					</div>
+					<!-- aside widget -->
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Filter By Color:</h3>
+						<ul class="color-option">
+							<li><a href="#" style="background-color:#475984;"></a></li>
+							<li><a href="#" style="background-color:#8A2454;"></a></li>
+							<li class="active"><a href="#" style="background-color:#BF6989;"></a></li>
+							<li><a href="#" style="background-color:#9A54D8;"></a></li>
+							<li><a href="#" style="background-color:#675F52;"></a></li>
+							<li><a href="#" style="background-color:#050505;"></a></li>
+							<li><a href="#" style="background-color:#D5B47B;"></a></li>
+							<li><a href="#" style="background-color:#8B4513;"></a></li>
+							<li><a href="#" style="background-color:#800000;"></a></li>
+						</ul>
+						<ul class="color-option">
+							<li><a href="#" style="background-color:#FFA07A;"></a></li>
+							<li><a href="#" style="background-color:#E9967A;"></a></li>
+							<li><a href="#" style="background-color:#DC143C;"></a></li>
+							<li><a href="#" style="background-color:#FFD700;"></a></li>
+							<li><a href="#" style="background-color:#FF8C00;"></a></li>
+							<li><a href="#" style="background-color:#82ae46;"></a></li>
+							<li><a href="#" style="background-color:#66CDAA;"></a></li>
+							<li><a href="#" style="background-color:#008080;"></a></li>
+							<li><a href="#" style="background-color:#C71585;"></a></li>
+						</ul>
+					</div>
+					<!-- /aside widget -->
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Filter By Size:</h3>
+						<ul class="size-option">
+							<li class="active"><a href="#">XS</a></li>
+							<li class="active"><a href="#">SM</a></li>
+							<li><a href="#">SL</a></li>
+							<li><a href="#">XL</a></li>
+							<li><a href="#">2X</a></li>
+							<li><a href="#">3X</a></li>
+						</ul>
+						<br />
+						<h5> More :</h5>
+						<ul class="list-links  div-scroll">
+							<li><input type="checkbox" class="input-checkbox" /> One Size</li>
+							<li><input type="checkbox" class="input-checkbox" /> Free Size</li>
+							<li><input type="checkbox" class="input-checkbox" /> UK 30</li>
+							<li><input type="checkbox" class="input-checkbox" /> UK 32</li>
+							<li><input type="checkbox" class="input-checkbox" /> UK 34</li>
+							<li><input type="checkbox" class="input-checkbox" /> UK 36</li>
+							<li><input type="checkbox" class="input-checkbox" /> EU 30</li>
+							<li><input type="checkbox" class="input-checkbox" /> EU 32</li>
+							<li><input type="checkbox" class="input-checkbox" /> EU 34</li>
+							<li><input type="checkbox" class="input-checkbox" /> EU 36</li>
+							<li><input type="checkbox" class="input-checkbox" /> XXXXL</li>
+							<li><input type="checkbox" class="input-checkbox" /> XXXXXL</li>
+							<li><input type="checkbox" class="input-checkbox" /> XXXXXXL</li>
+						</ul>
+					</div>
+					<!-- /aside widget -->
+					<!-- aside widget -->
+					<div class="aside">
+						<h3 class="aside-title">Filter by Brand</h3>
+						<ul class="list-links  div-scroll">
+							<li><input type="checkbox" class="input-checkbox" /> Nike</li>
+							<li><input type="checkbox" class="input-checkbox" /> Adidas</li>
+							<li><input type="checkbox" class="input-checkbox" /> Polo</li>
+							<li><input type="checkbox" class="input-checkbox" /> Lacost</li>
+							<li><input type="checkbox" class="input-checkbox" /> Adidas</li>
+							<li><input type="checkbox" class="input-checkbox" /> Polo</li>
+							<li><input type="checkbox" class="input-checkbox" /> Lacost</li>
+							<li><input type="checkbox" class="input-checkbox" /> Adidas</li>
+							<li><input type="checkbox" class="input-checkbox" /> Polo</li>
+							<li><input type="checkbox" class="input-checkbox" /> Lacost</li>
+							<li><input type="checkbox" class="input-checkbox" /> Adidas</li>
+							<li><input type="checkbox" class="input-checkbox" /> Polo</li>
+							<li><input type="checkbox" class="input-checkbox" /> Lacost</li>
+						</ul>
+					</div>
+					<!-- /aside widget -->
+				</div>
+
+				<!-- MAIN Product-->
+				<div id="main" class="col-md-9">
+					<!-- store top filter -->
+					<div class="store-filter clearfix">
+						<div class="pull-left">
+							<div class="header-search">
+								<form>
+									<input class="input search-input" type="text" placeholder="Enter your keyword">
+									<button class="search-btn"><i class="fa fa-search"></i></button>
+								</form>
+							</div>
+						</div>
+						<div class="pull-right">
+							<div class="sort-filter">
+								<span class="text-uppercase">Sort By:</span>
+								<select class="input">
+									<option value="0">Newest</option>
+									<option value="0">Price</option>
+									<option value="0">Rating</option>
+								</select>
+							</div>
+							<ul class="store-pages">
+								<li><span class="text-uppercase">Page:</span></li>
+								<li class="active">1</li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- /store top filter -->
+					<!-- STORE -->
+					<div id="store">
+						<!-- row -->
+						<div class="row">
+							<!-- Product Single -->
+							<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> View More</button>
+										<img src="images/shop/pro1.jpg" />
+									</div>
+									<div class="product-body">
+										<h4 class="product-price">32.50 EGP</h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h5 class="product-name"><a href="#">Product Name</a></h5>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-shopping-cart"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>New</span>
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> View More</button>
+										<img src="images/shop/pro2.jpg" />
+									</div>
+									<div class="product-body">
+										<h5 class="product-price">32.50 EGP</h5>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h6 class="product-name"><a href="#">Product Name</a></h6>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-shopping-cart"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span class="sale">-20%</span>
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> View More</button>
+										<img src="images/shop/pro3.jpg" />
+									</div>
+									<div class="product-body">
+										<h5 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h5>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h6 class="product-name"><a href="#">Product Name</a></h6>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-shopping-cart"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>New</span>
+											<span class="sale">-20%</span>
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> View More</button>
+										<img src="images/shop/pro4.jpg" />
+									</div>
+									<div class="product-body">
+										<h5 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h5>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h6 class="product-name"><a href="#">Product Name</a></h6>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-shopping-cart"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> View More</button>
+										<img src="images/shop/pro5.jpg" />
+									</div>
+									<div class="product-body">
+										<h4 class="product-price">32.50 EGP</h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h5 class="product-name"><a href="#">Product Name</a></h5>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-shopping-cart"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>New</span>
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> View More</button>
+										<img src="images/shop/pro6.jpg" />
+									</div>
+									<div class="product-body">
+										<h5 class="product-price">32.50 EGP</h5>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h6 class="product-name"><a href="#">Product Name</a></h6>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-shopping-cart"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> View More</button>
+										<img src="images/shop/pro7.jpg" />
+									</div>
+									<div class="product-body">
+										<h4 class="product-price">32.50 EGP</h4>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h5 class="product-name"><a href="#">Product Name</a></h5>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-shopping-cart"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="col-md-3 col-sm-4 col-xs-4">
+								<div class="product product-single">
+									<div class="product-thumb">
+										<div class="product-label">
+											<span>New</span>
+										</div>
+										<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> View More</button>
+										<img src="images/shop/pro8.jpg" />
+									</div>
+									<div class="product-body">
+										<h5 class="product-price">32.50 EGP</h5>
+										<div class="product-rating">
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star"></i>
+											<i class="fa fa-star-o empty"></i>
+										</div>
+										<h6 class="product-name"><a href="#">Product Name</a></h6>
+										<div class="product-btns">
+											<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+											<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+											<button class="main-btn icon-btn"><i class="fa fa-shopping-cart"></i></button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+						</div>
+						<!-- /row -->
+					</div>
+					<!-- /STORE -->
+				</div>
+				<!-- /MAIN Product-->
+			</div>
+		</div>
+	</div>
+	<!-- /section -->
+
+	<!-- Last Order section -->
+	<div class="section"style="background-color:#FFFAFA" >
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section-title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h3 class="title">Last Orders</h3>
+						<div class="pull-right">
+							<div class="product-slick-dots-1 custom-dots"></div>
+						</div>
+					</div>
+				</div>
+				<!-- /section-title -->
+				<!-- banner -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="banner banner-2">
+						<img src="images/shop/coll-banner.jpg" alt="">
+						<div class="banner-caption">
+							<h2 class="white-color">NEW<br>COLLECTION</h2>
+							<button class="primary-btn">Shop Now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /banner -->
+				<!-- Product Slick -->
+				<div class="col-md-9 col-sm-6 col-xs-6">
+					<div class="row">
+						<div id="product-slick-1" class="product-slick">
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>New</span>
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/item2.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/item3.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>New</span>
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/item4.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>New</span>
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/item5.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>New</span>
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/item6.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>New</span>
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/item7.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>New</span>
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/item8.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>New</span>
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/item9.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+						</div>
+					</div>
+				</div>
+				<!-- /Product Slick -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+	<!-- Last Seen section -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- section title -->
+				<div class="col-md-12">
+					<div class="section-title">
+						<h3 class="title">Last Seen</h3>
+						<div class="pull-right">
+							<div class="product-slick-dots-2 custom-dots">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- section title -->
+				<!-- banner -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="banner banner-2">
+						<img src="images/shop/w-banner.jpg" alt="">
+						<div class="banner-caption">
+							<h2 class="white-color">NEW<br>COLLECTION</h2>
+							<button class="primary-btn">Shop Now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /banner -->
+				<!-- Product Slick -->
+				<div class="col-md-9 col-sm-6 col-xs-6">
+					<div class="row">
+						<div id="product-slick-2" class="product-slick">
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/shop/w1.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP</h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/shop/w2.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/shop/w3.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP</h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+							<!-- Product Single -->
+							<div class="product product-single">
+								<div class="product-thumb">
+									<div class="product-label">
+										<span>New</span>
+										<span class="sale">-20%</span>
+									</div>
+									<button class="main-btn quick-view"><i class="fa fa-search-plus"></i> Quick view</button>
+									<img src="images/shop/w4.jpg" alt="">
+								</div>
+								<div class="product-body">
+									<h3 class="product-price">32.50 EGP<del class="product-old-price">45.00 EGP</del></h3>
+									<div class="product-rating">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+									<h2 class="product-name"><a href="#">Product Name</a></h2>
+									<div class="product-btns">
+										<button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+										<button class="main-btn icon-btn"><i class="fas fa-share-alt"></i></button>
+										<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Add to Cart</button>
+									</div>
+								</div>
+							</div>
+							<!-- /Product Single -->
+
+						</div>
+					</div>
+				</div>
+				<!-- /Product Slick -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+	<!-- Review section -->
+	<div class="section"style="background-color:#FFFFF0">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-12">
+						<div class="section-title">
+							<h4 class="title">Reviews</h4>
+						</div>
+				</div>
+					<div class="col-md-6">
+						<div class="product-reviews">
+
+							<div class="single-review">
+								<div class="review-heading">
+									<div><a href="#"><i class="fa fa-user-o"></i> Mustafa</a></div>
+									<div><a href="#"><i class="fa fa-clock-o"></i> 20 Jan 2020 / 8:0 PM</a></div>
+									<div class="review-rating pull-right">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+								</div>
+								<div class="review-body">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									</p>
+								</div>
+							</div>
+
+							<div class="single-review">
+								<div class="review-heading">
+									<div><a href="#"><i class="fa fa-user-o"></i> Ahmed</a></div>
+									<div><a href="#"><i class="fa fa-clock-o"></i> 25 Jan 2020 / 8:0 PM</a></div>
+									<div class="review-rating pull-right">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+								</div>
+								<div class="review-body">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									</p>
+								</div>
+							</div>
+
+							<div class="single-review">
+								<div class="review-heading">
+									<div><a href="#"><i class="fa fa-user-o"></i> Karim</a></div>
+									<div><a href="#"><i class="fa fa-clock-o"></i> 27 Jan 2020 / 8:0 PM</a></div>
+									<div class="review-rating pull-right">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star-o empty"></i>
+									</div>
+								</div>
+								<div class="review-body">
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute
+										irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+									</p>
+								</div>
+							</div>
+
+							<ul class="reviews-pages">
+								<li class="active">1</li>
+								<li><a href="#">2</a></li>
+								<li><a href="#">3</a></li>
+								<li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<h4 class="text-uppercase">Write Your Review</h4>
+						<p>Your email address will not be published.</p>
+						<form class="review-form">
+							<div class="form-group">
+								<input class="input" type="text" placeholder="Your Name" />
+							</div>
+							<div class="form-group">
+								<input class="input" type="email" placeholder="Email Address" />
+							</div>
+							<div class="form-group">
+								<textarea class="input" placeholder="Your review"></textarea>
+							</div>
+							<div class="form-group">
+								<div class="input-rating">
+									<strong class="text-uppercase">Your Rating: </strong>
+									<div class="stars">
+										<input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+										<input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+										<input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+										<input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+										<input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+									</div>
+								</div>
+							</div>
+							<button class="primary-btn">Submit</button>
+						</form>
+					</div>
+				</div>
+		</div>
+	</div>
+	<!-- /Review section -->
+
+	<!-- Offers section -->
+	<div class="section section-grey">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- banner -->
+				<div class="col-md-8">
+					<div class="banner banner-1">
+						<img src="images/shop/offer-1.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h1 class="primary-color">HOT DEAL<br><span class="white-color font-weak">Up to 50% OFF</span></h1>
+							<button class="primary-btn">Shop Now</button>
+						</div>
+					</div>
+				</div>
+				<!-- /banner -->
+				<!-- banner -->
+				<div class="col-md-4 col-sm-6">
+					<a class="banner banner-1" href="#">
+						<img src="images/shop/offer-2.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">NEW COLLECTION</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+				<!-- banner -->
+				<div class="col-md-4 col-sm-6">
+					<a class="banner banner-1" href="#">
+						<img src="images/shop/offer-3.jpg" alt="">
+						<div class="banner-caption text-center">
+							<h2 class="white-color">NEW COLLECTION</h2>
+						</div>
+					</a>
+				</div>
+				<!-- /banner -->
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+
+
+	<!-- Company Details section -->
+	<div class="section"style="background-color:#FFFFFF">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<form id="checkout-form" class="clearfix">
+					<div class="col-md-6">
+						<div class="shiping-methods">
+							<div class="section-title">
+								<h4 class="title">About Company</h4>
+							</div>
+							<div class="input-checkbox">
+								<input type="radio" name="about" id="about-1" checked>
+								<label for="about-1">Business Type</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									<p>
+								</div>
+							</div>
+							<div class="input-checkbox">
+								<input type="radio" name="about" id="about-2">
+								<label for="about-2">Total Annual Revenue</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									<p>
+								</div>
+							</div>
+							<div class="input-checkbox">
+								<input type="radio" name="about" id="about-3">
+								<label for="about-2">Total Employees</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									<p>
+								</div>
+							</div>
+						</div>
+
+						<div class="shiping-methods">
+							<div class="section-title">
+								<h4 class="title">Shiping Methods</h4>
+							</div>
+							<div class="input-checkbox">
+								<input type="radio" name="shipping" id="shipping-1" checked>
+								<label for="shipping-1">Free Shiping - 0.00 EGP</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									<p>
+								</div>
+							</div>
+							<div class="input-checkbox">
+								<input type="radio" name="shipping" id="shipping-2">
+								<label for="shipping-2">Standard - 10.00 EGP</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									<p>
+								</div>
+							</div>
+						</div>
+
+						<div class="payments-methods">
+							<div class="section-title">
+								<h4 class="title">Payments Methods</h4>
+							</div>
+							<div class="input-checkbox">
+								<input type="radio" name="payments" id="payments-1" checked>
+								<label for="payments-1">Direct Bank Transfer</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									<p>
+								</div>
+							</div>
+							<div class="input-checkbox">
+								<input type="radio" name="payments" id="payments-2">
+								<label for="payments-2">Cheque Payment</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									<p>
+								</div>
+							</div>
+							<div class="input-checkbox">
+								<input type="radio" name="payments" id="payments-3">
+								<label for="payments-3">Paypal System</label>
+								<div class="caption">
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+									<p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="billing-details">
+							<div class="section-title">
+								<h4 class="title">Contact US</h4>
+							</div>
+							<label class="control-label">First Name :</label>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Enter First Name *" />
+							</div>
+							<label class="control-label">Last Name :</label>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Enter Last Name *" />
+							</div>
+							<label class="control-label">Email :</label>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Enter Email *" />
+							</div>
+							<label class="control-label">Country :</label>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Enter Country *" />
+							</div>
+							<label class="control-label">Phone :</label>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Enter Phone *" />
+							</div>
+							<label class="control-label">Message :</label>
+							<div class="form-group">
+								<textarea class="form-control" rows="5"></textarea>
+							</div>
+							<button class="col-md-12 primary-btn">Submit</button>
+						</div>
+					</div>
+					
+				</form>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /section -->
+	
+	<!-- FOOTER -->
+	<footer id="footer" class="section section-grey">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<!-- footer logo -->
+						<div class="footer-logo">
+							<a class="logo" href="#">
+								<img src="images/time-logo.png" alt="">
+							</a>
+						</div>
+						<!-- /footer logo -->
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+
+						<!-- footer social -->
+						<ul class="footer-social">
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						</ul>
+						<!-- /footer social -->
+					</div>
+				</div>
+				<!-- /footer widget -->
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">About US</h3>
+						<ul class="list-links">
+							<li><a href="#"><i class="fas fa-map-marker-alt"></i> Location Contrary to popular belief, Lorem Ipsum is not simply random text.  literature from 45 BC</a></li>
+							<li><a href="#"><i class="fas fa-phone-alt"></i> +2 123 456 789</a></li>
+							<li><a href="#"><i class="fas fa-envelope"></i> info@mall.com</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+
+				<div class="clearfix visible-sm visible-xs"></div>
+
+				<!-- footer widget -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Customer Service</h3>
+						<ul class="list-links">
+							<li><a href="#">About Us</a></li>
+							<li><a href="#">Shiping & Return</a></li>
+							<li><a href="#">Shiping Guide</a></li>
+							<li><a href="#">FAQ</a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- /footer widget -->
+				<!-- footer subscribe -->
+				<div class="col-md-3 col-sm-6 col-xs-6">
+					<div class="footer">
+						<h3 class="footer-header">Stay Connected</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+						<form>
+							<div class="form-group">
+								<input class="input" placeholder="Enter Email Address">
+							</div>
+							<button class="primary-btn">Join Newslatter</button>
+						</form>
+					</div>
+				</div>
+				<!-- /footer subscribe -->
+			</div>
+			<!-- /row -->
+			<hr>
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /FOOTER -->
+
+
+
+
+
+
+
+
+
+			<!-- jQuery Plugins -->
+			<script src="js/pro/jquery.min.js"></script>
+			<script src="js/pro/bootstrap.min.js"></script>
+			<script src="js/pro/slick.min.js"></script>
+			<script src="js/pro/nouislider.min.js"></script>
+			<script src="js/pro/jquery.zoom.min.js"></script>
+			<script src="js/pro/main.js"></script>
+
+			<!--Category Price-->
+			<script src="js/catg/js/jquery-3.2.1.min.js"></script>
+			<script src="js/catg/js/jquery-ui.js"></script>
+			<script src="js/catg/js/categories_custom.js"></script>
+
+</body>
+</html>
