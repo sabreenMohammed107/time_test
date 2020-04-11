@@ -7,6 +7,8 @@
       
         <!-- Navigation -->
         <ul class="accordion ms-main-aside fs-14" id="side-nav-accordion">
+
+        
             <!-- Home -->
             <li class="menu-item ">
                 <a class=" active" href="index.html">
@@ -14,7 +16,7 @@
                 </a>
                
             </li>
-            
+
             <!-- /Home -->
              <!-- Shop  -->
              <li class="menu-item">
