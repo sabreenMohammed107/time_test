@@ -11,7 +11,7 @@
 */
 Route::namespace('Customer')->group(function () {
   /*----------------------Home---------------------------*/
-  Route::get('/index', 'IndexController@index');
+  Route::get('/', 'IndexController@index');
   /*--------------------web shop -----------------------*/
   Route::get('/shop/{id}', 'ShopController@sliderView')->name('shop');
   Route::post('addReview', 'ShopController@addReview')->name('testReview');
