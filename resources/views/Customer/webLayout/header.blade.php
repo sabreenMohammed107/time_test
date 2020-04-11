@@ -4,7 +4,7 @@
 		<div id="top-header" style="background-color:#82ae46">
 			<div class="container">
 				<div class="pull-left">
-					<span style="color:white;text-transform:uppercase"><i class="fas fa-bullhorn"></i> Whatever you've got in mind .Sabreen>>>>>. we've got inside</span>
+					<span style="color:white;text-transform:uppercase"><i class="fas fa-bullhorn"></i> Whatever you've got in mind yahia>> .. we've got inside</span>
 				</div>
 				<div class="pull-right">
 					<ul class="header-top-links">
@@ -77,7 +77,7 @@
 								@if($objAuth!=null)
 								<strong class="text-uppercase">{{$objAuth->name}}<i class="fa fa-caret-down"></i></strong>
 								@else
-								<strong class="text-uppercase">My Account <i class="fa fa-caret-down"></i></strong>
+								<strong class="text-uppercase">My Account Name <i class="fa fa-caret-down"></i></strong>
 								@endif	
 							</div>
 							@if($objAuth!=null)
